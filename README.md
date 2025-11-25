@@ -201,4 +201,5 @@ goldshores     -   Glided Coast (Golden Stone Titan Boss Arena)
 This plugin uses NAudio.dll https://github.com/naudio/NAudio to help load and play music at runtime. 
 This is done to make it very easy for players to supply their own music. 
 The downside is that the normal in game music isn't disabled.
+
 This plugin sets your in game music volume setting to 0. 
