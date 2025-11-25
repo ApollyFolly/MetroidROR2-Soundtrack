@@ -1,5 +1,14 @@
 This is a modified version of the original mod for OriginalSoundTrack by Kyle (https://thunderstore.io/package/Kyle/OriginalSoundTrack/)
-I just trimmed down, and reformanted the document aswell as adding new ID's that were not in the original mod document*****
+
+I just trimmed down, added my own music files aswell as adding new ID's that were not in the original mod document
+
+Includes music from Prime 1, 2, 3, 4, Pinball, Dread, Other M, AM2R, Fan Made Super Metroid renditions, and more.
+
+#Manual Download
+
+Just drag and drop into BepinEx plugins folder, the path should look something like this. (SteamLibrary\steamapps\common\Risk of Rain 2\BepInEx\plugins)
+
+##Making Your Own Version
 
 Put scene IDs in the "scenes" attribute to have audio play on that scene in settings.xml. 
 
@@ -33,7 +42,7 @@ The default path it scans for music is: Risk of Rain 2\BepInEx\plugins\OriginalS
 
 Scene IDs (level IDs).
 
-(As of the Sotv update)
+(As of the Alloyed Collective update)
 ```
 
 Non Level ID's     Description
@@ -44,7 +53,7 @@ loadingbasic   -   (Loading Bar)
 
 intro          -   (Intro Cutscene)
 
-outro          -   (Outro Cutscene)
+outro          -   (Outro Cutscene/Credits)
 
 title          -   (The Title Screen)
 
@@ -61,41 +70,58 @@ infinitetowerworld - (Simulacrum Menu)
 
 Level ID's         Level Name / Description
 ===============================================
-bazaar         -   Bazaar Between Time (The Shop)
 
+Base Game ID's
+===============================================
+
+            -Level 1 Variants-
 blackbeach     -   Distant Roost (Flying Creatures Cliffs Level 1)
 + blackbeach2
 
 golemplains    -   Titanic Plains (Grassy Level 1)
 + golemplains2
 
+lakes  -   Verdant Falls (Big flower Level 1)
++lakesnight
+
+            -Level 2 Variants-
 foggyswamp     -   Wetland Aspect (Swamp Level)
 
 goolake        -   Abandoned Aqueduct (Tar Desert Level)
 
+            -Level 3 Variants-
 frozenwall     -   Rallypoint Delta (Snow Level w/ The Caves)
 
 wispgraveyard  -   Scorched Acres (Circle platforms Level)
 
+            -Level 4 Variants-
 dampcavesimple -   Abyssal Depths (Hell Level) 
 + dampcave
 
 shipgraveyard  -   Siren's Call (Eggs Level)
 
-skymeadow      -   Sky Meadow (Guitar solo Level) 
-
-moon2          -   Commencement (Final Level)
-
 rootjungle     -   Sundered Grove (Big Tree Level w/ Mushroom Launch Pads)
 
-Survivors Of The Void Id's
+            -Level 5 Variants-
+skymeadow      -   Sky Meadow (Guitar solo Level) 
+
+                 -Final-
+moon2          -   Commencement (Final Level)
+
+
+Survivors Of The Void ID's
 ===============================================
+
+            -First Level-
 snowyforest    -   Siphoned Forest (Snowy level 1)
 
+            -Second Level-
 ancientloft    -   Aphelian Sanctuary (Big cube pillar level) 
 
+            -Third Level-
 sulfurpools    -   Sulfur Pools (Green bubble level) 
 
+            -Simulacrum Variants-
 itancientloft  -   Simulacrum version of stage
 
 itdampcave     -   Simulacrum version of stage 
@@ -110,12 +136,56 @@ itmoon         -   Simulacrum version of stage
 
 itskymeadow    -   Simulacrum version of stage
 
-voidstage      -   Sotv DLC void stage 
+                 -Final-
+voidstage      -   Sotv DLC Boss stage 
 
 voidraid       -   Sotv DLC Boss arena 
 
-Misc Id's
+Seekers Of The Storm ID's
 ===============================================
+
+            -Level 1 Variants-
+village        -   Shattered Abodes (Big circle first level)
++villagenight
+
+            -Level 2 Variant-
+lemuriantemple -   Reformed Alter (Path of the Colossus first level)
+
+            -Level 3 Variants-
+habitat        -   Treeborn Colony (Path of the Colossus second level)
++habitatfall
+            -Level 5 Variant-
+helminthroost  -   Helminth Hatchery (Hell but with paths)
+
+                 -Final-
+meridian       -   Prime Meridian (False Sun boss level)
+
+Alloyed Collective ID's
+===============================================
+
+            -Level 2 Variants-
+nest?           -   Pretender's Precipice (Snowy with robo corpse)
+
+conduitcanyon  -   Conduit Canyon (Decompile Level 1)
+
+            -Level 3 Variants-
+ironalluvium   -   Iron Alluvium (Big drill in the desert)
++
+
+solutionalhaunt -   Solutional Haunt (Decompile Level 2)
+
+            -Level 4 Variants-
+repurposedcrater -   Repurposed Crater (Crater with big arch)
+
+computationalexchange -   Computational Exchange (Decompile Level 3)
+
+              -Final-
+solusweb?      -   Neural Sanctum (Decompile Boss)
+
+Misc ID's
+===============================================
+bazaar         -   Bazaar Between Time (The Shop)
+
 artifactworld  -   Bulwark's Ambry (Area Where You Unlock Artifacts.) 
 
 arena          -   Void Fields (The Area Where You Unlock Acrid.) 
@@ -125,7 +195,7 @@ mysteryspace   -   A Moment, Fractured (The Place Where You Can Obliterate Yours
 limbo          -   A Moment, Whole (The Mega Scavenger Boss) 
 
 goldshores     -   Glided Coast (Golden Stone Titan Boss Arena)
-```
+
 ##Other Info
 
 This plugin uses NAudio.dll https://github.com/naudio/NAudio to help load and play music at runtime. 
