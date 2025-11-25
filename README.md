@@ -164,13 +164,13 @@ Alloyed Collective ID's
 ===============================================
 
             -Level 2 Variants-
-nest?           -   Pretender's Precipice (Snowy with robo corpse)
+nest           -   Pretender's Precipice (Snowy with robo corpse)
 
 conduitcanyon  -   Conduit Canyon (Decompile Level 1)
 
             -Level 3 Variants-
 ironalluvium   -   Iron Alluvium (Big drill in the desert)
-+
++ironalluvium2
 
 solutionalhaunt -   Solutional Haunt (Decompile Level 2)
 
@@ -180,7 +180,7 @@ repurposedcrater -   Repurposed Crater (Crater with big arch)
 computationalexchange -   Computational Exchange (Decompile Level 3)
 
               -Final-
-solusweb?      -   Neural Sanctum (Decompile Boss)
+solusweb      -   Neural Sanctum (Decompile Boss)
 
 Misc ID's
 ===============================================
